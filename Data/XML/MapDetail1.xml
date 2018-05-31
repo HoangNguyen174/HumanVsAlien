@@ -1,0 +1,13 @@
+<MapDetail>
+  <BackgroundMusic name="DST-2ndBallad.mp3" />
+  <Actor name="Veteran" worldCoords="4.5,1.5"/>
+  <Actor name="Doctor" worldCoords="3.5,1.5"/>
+  <Actor name="Engineer" worldCoords="5.5,1.5"/>
+  <Actor name="Destroyer" worldCoords="3.5,7.5"/>
+  <!--<Actor name="Predator" worldCoords="3.5,8.5"/>-->
+  <Item name="Small First Aid" worldCoords="5.5,2.5" />
+  <Item name="Small First Aid" worldCoords="6.5,2.5" />
+  <Item name="Small First Aid" worldCoords="7.5,2.5" />
+  <Item name="Energy" worldCoords="9.5,2.5" />
+  <Construct name="Gas Station" worldCoords="15.5,9.5"/> 
+</MapDetail>

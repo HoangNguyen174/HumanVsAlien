@@ -1,0 +1,4 @@
+<FontDefinition>
+<FontInfo name="MainFont" locale="en" numTextureSheets="1" cellPixelHeight="72"/>
+	<Glyph ucsIndex="32" sheet="0" texCoordMins="0.015625,0.015625" texCoordMaxs="0.0175781,0.0859375" ttfA="0" ttfB="0.15" ttfC="0.222222"/>
+</FontDefinition>

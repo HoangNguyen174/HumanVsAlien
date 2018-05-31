@@ -1,0 +1,20 @@
+<ItemDefinitions>
+  <ItemDef name="Revolver" abb="R" type="RangeWeapon" equipSlot="MainHand" textureSheet="ItemSheet.png" textureTileCoords="0,3" radius="0.3">
+    <ItemProperty damage="5.0" attackRate="1.0" attackRange="1.0" toughness="0.0" equipable="true"/>
+  </ItemDef>
+  <ItemDef name="PlasmaGun" abb="R" type="RangeWeapon" equipSlot="MainHand" textureSheet="ItemSheet.png" textureTileCoords="2,3" radius="0.3">
+    <ItemProperty damage="20.0" attackRate="1.0" attackRange="3.0" toughness="0.0" equipable="true"/>
+  </ItemDef>
+  <ItemDef name="Machete" abb="Ma" type="MeleeWeapon" equipSlot="OffHand" textureSheet="ItemSheet.png" textureTileCoords="11,24" radius="0.3">
+    <ItemProperty damage="1.0" attackRate="0.5" attackRange="1.0" toughness="2.0" equipable="true"/>
+  </ItemDef>
+  <ItemDef name="MetalHead" abb="Me" type="Armor" equipSlot="Head" textureSheet="ItemSheet.png" textureTileCoords="5,5" radius="0.3">
+    <ItemProperty damage="0.0" attackRate="0.0" attackRange="0.0" toughness="2.0" equipable="true"/>
+  </ItemDef>
+  <ItemDef name="Small First Aid" abb="H" type="HealthPortion" equipSlot="Health" textureSheet="ItemSheet.png" textureTileCoords="6,0" radius="0.3">
+    <ItemProperty recoverAmount="30" equipable="true"/>
+  </ItemDef>
+  <ItemDef name="Energy" abb="Mo" type="EnergyPortion" equipSlot="Energy" textureSheet="ItemSheet.png" textureTileCoords="7,4" radius="0.3">
+    <ItemProperty recoverAmount="15" equipable="true"/>
+  </ItemDef>
+</ItemDefinitions>

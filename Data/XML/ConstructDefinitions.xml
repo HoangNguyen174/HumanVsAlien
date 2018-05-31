@@ -1,0 +1,6 @@
+<ConstructDefinitions>
+  <ConstructDef name="Gas Station" textureSheet="Construct.png" textureTileCoords="0,0" size="2.0" overlappable="false">
+    <Ability name="Heal" radius="5" />
+    <Ability name="Slow" radius="10" />
+  </ConstructDef>  
+</ConstructDefinitions>

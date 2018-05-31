@@ -1,0 +1,74 @@
+<ActorDefinitions>
+  <ActorDef name="Veteran" textureSheet="ActorSheet.png" textureTileCoords="1,1" isPlayer="true">
+    <ActorMainStat health="1.0" str="10.2" int="1.0" dex="1.0" />
+    <ActorSecondaryStat toughness="1.0" attackRate="3.0" attackRange="7.0" speed="2.0" awareRadius="0.0"/>
+    <ActorProperty faction="human" size="0.4" visionRange="4" braveness="1.0,1.0"/>
+    <DefaultStrategy strategy="Inactive"/>
+    <AbilityList>
+      <Ability name ="Nuclear Bomb"/>
+      <Ability name ="Taunt"/>
+    </AbilityList>
+    <Sound getHit="Hit_Hurt5.wav" lvUp="Powerup35.wav" death="Explosion28.wav" attack="Laser_Shoot.wav"/>
+  </ActorDef>
+  
+  <ActorDef name="Engineer" textureSheet="ActorSheet.png" textureTileCoords="2,3" isPlayer="true">
+    <ActorMainStat health="1.0" str="0.5" int="1.0" dex="1.0" />
+    <ActorSecondaryStat toughness="1.5" attackRate="1.0" attackRange="3.0" speed="2.0" awareRadius="0.0"/>
+    <ActorProperty faction="human" size="0.4" visionRange="4" braveness="1.0,1.0"/>
+    <DefaultStrategy strategy="Inactive"/>
+    <AbilityList>
+      <Ability name ="Snipe"/>
+      <Ability name ="Slow"/>
+    </AbilityList>
+    <Sound getHit="Hit_Hurt5.wav" lvUp="Powerup35.wav" death="Explosion28.wav" attack="Laser_Shoot.wav"/>
+  </ActorDef>
+  
+  <ActorDef name="Doctor" textureSheet="ActorSheet.png" textureTileCoords="1,0" isPlayer="true">
+    <ActorMainStat health="1.0" str="1.0" int="1.0" dex="1.0"/>
+    <ActorSecondaryStat toughness="1.2" attackRate="3.0" attackRange="1.0" speed="2.0" awareRadius="0.0"/>
+    <ActorProperty faction="human" size="0.4" visionRange="4" braveness="1.0,1.0"/>
+    <DefaultStrategy strategy="Inactive"/>
+    <AbilityList>
+      <Ability name ="Heal"/>
+      <Ability name ="Confusion"/>
+    </AbilityList>
+    <Sound getHit="Hit_Hurt5.wav" lvUp="Powerup35.wav" death="Explosion28.wav" attack="Laser_Shoot.wav"/>
+  </ActorDef>
+  
+  <ActorDef name="BloodSeeker" textureSheet="ActorSheet.png" textureTileCoords="0,0">
+    <ActorMainStat health="1.0" str="0.7" int="1.0" dex="1.0" />
+    <ActorSecondaryStat toughness="1.0" attackRate="1.0" attackRange="1.0" speed="1.0" awareRadius="2.0"/>
+    <ActorProperty faction="Soler" size="0.4" visionRange="1" exp="50" braveness="0.95,1.0"/>
+    <DefaultStrategy strategy="Patrol" radius="5.0"/>
+    <DropList>
+      <Item name="Small First Aid" percent="0.7"/>
+    </DropList>
+    <Sound getHit="Hit_Hurt5.wav" death="Explosion28.wav" attack="Laser_Shoot.wav"/>
+  </ActorDef>
+  
+  <ActorDef name="Predator" textureSheet="ActorSheet.png" textureTileCoords="2,1">
+    <ActorMainStat health="1.0" str="0.6/" int="1.0" dex="1.0"/>
+    <ActorSecondaryStat toughness="0.5" attackRate="1.0" attackRange="1.0" speed="1.0" awareRadius="2.0"/>
+    <ActorProperty faction="Naniax" size="0.4" visionRange="1" exp="100" braveness="0.1,0.1"/>
+    <DefaultStrategy strategy="Patrol" radius="3.0"/>
+    <DropList>
+      <Item name="Revolver" percent="1.0"/>
+      <Item name="PlasmaGun" percent="1.0"/>
+      <Item name="Small First Aid" percent="0.8"/>
+    </DropList>
+    <Sound getHit="Hit_Hurt5.wav" death="Explosion28.wav" attack="Laser_Shoot.wav"/>
+  </ActorDef>
+  
+  <ActorDef name="Destroyer" textureSheet="ActorSheet.png" textureTileCoords="4,4">
+    <ActorMainStat health="1.0" str="1.5" int="1.0" dex="1.0"/>
+    <ActorSecondaryStat toughness="1.2" attackRate="1.0" attackRange="1.0" speed="1.0" awareRadius="2.0"/>
+    <ActorProperty faction="Naniax" size="0.4" visionRange="1" exp="300" braveness="1.0,1.0"/>
+    <DefaultStrategy strategy="Patrol" radius="10.0"/>
+    <DropList>
+      <Item name="Small First Aid" percent="1.0"/>
+      <Item name="PlasmaGun" percent="0.1" />
+    </DropList>
+    <Sound getHit="Hit_Hurt5.wav" death="Explosion28.wav" attack="Laser_Shoot.wav"/>
+  </ActorDef>
+  
+</ActorDefinitions>

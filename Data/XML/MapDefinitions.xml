@@ -1,0 +1,22 @@
+<MapDefinitions>
+  <MapDef name="World" type="worldMap" width="64" height="64" >
+    <Room minMaxWidth="5,7" minMaxHeight="3,5" num="0,0" />
+    <Encounter name="BloodSeeker" num="3,5" />
+  </MapDef>
+  <MapDef name="Cave" type="subMap" width="64" height="64">
+    <Room minMaxWidth="15,24" minMaxHeight="18,24" num="5,5" />
+    <Encounter name="BloodSeeker" num="10,10" />
+    <BackgroundMusic name="DST-AngryMod.mp3"/>
+  </MapDef>
+  <MapDef name="ScoutShip" type="subMap" width="64" height="64">
+    <Room  minMaxWidth="15,24" minMaxHeight="18,24" num="4,4" />
+    <Encounter name="Predator" num="5,10" minDistanceToPlayer="10"/>
+    <BackgroundMusic name="DST-AngryMod.mp3"/>
+  </MapDef>
+  <MapDef name="BattleShip" type="subMap" width="64" height="32">
+    <Room  minMaxWidth="10,15" minMaxHeight="10,15" num="8,10"/>
+    <Encounter name="Predator" num="20,25" minDistanceToPlayer="7"/>
+    <Encounter name="Destroyer" num="7,7" minDistanceToPlayer="10"/>
+    <BackgroundMusic name="DST-AngryMod.mp3"/>
+  </MapDef>
+</MapDefinitions>

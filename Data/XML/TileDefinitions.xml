@@ -1,0 +1,17 @@
+<TileDefinition>
+  <TileDef name="Grass" Abb="." isSolid="false" textureSheet="DugeonTileSet.png" textureTileCoords="57,14" gCost="1"/>
+  <TileDef name="Sand" Abb="S" isSolid="false" textureSheet="DugeonTileSet.png" textureTileCoords="7,15" gCost="1"/>
+  <TileDef name="Wall" Abb="W" isSolid="true" textureSheet="DugeonTileSet.png" textureTileCoords="8,16" gCost="9999"/>
+  <TileDef name="City" Abb="C" isSolid="true" textureSheet="DugeonTileSet.png" textureTileCoords="4,5" gCost="9999"/>
+  <TileDef name="Forest" Abb="F" isSolid="true" textureSheet="DugeonTileSet.png" textureTileCoords="2,3" gCost="9999"/>
+  <TileDef name="Road" Abb="R" isSolid="false" textureSheet="DugeonTileSet.png"  textureTileCoords="4,4" gCost="9999"/>
+  <TileDef name="Rock" Abb="r" isSolid="false" textureSheet="DugeonTileSet.png" textureTileCoords="7,15" gCost="9999"/>
+  <TileDef name="Rock1" Abb="1" isSolid="true" textureSheet="DugeonTileSet.png" textureTileCoords="0,14" gCost="9999"/>
+  <TileDef name="AlienShip" Abb="A" isSolid="true" textureSheet="DugeonTileSet.png"  textureTileCoords="2,6" gCost="9999"/>
+  <TileDef name="Larva" Abb="L" isSolid="true" textureSheet="DugeonTileSet.png" textureTileCoords="4,1" gCost="9999"/>
+  <TileDef name="Tree" Abb="T" isSolid="true" textureSheet="DugeonTileSet.png"  textureTileCoords="12,18" gCost="9999"/>
+  <TileDef name="CaveEntrance" Abb="c" isSolid="false" textureSheet="DugeonTileSet.png"  textureTileCoords="18,15" gCost="9999"/>
+  <TileDef name="ScoutShipEntrance" Abb="s" isSolid="false" textureSheet="DugeonTileSet.png" textureTileCoords="41,15" gCost="9999"/>
+  <TileDef name="BattleShipEntrance" Abb="b" isSolid="false" textureSheet="DugeonTileSet.png"  textureTileCoords="22,15" gCost="9999"/>
+  <TileDef name="ToWorld" Abb="w" isSolid="false" textureSheet="DugeonTileSet.png"  textureTileCoords="21,15" gCost="9999"/>
+</TileDefinition>

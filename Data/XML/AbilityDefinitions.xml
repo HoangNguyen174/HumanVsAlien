@@ -1,0 +1,32 @@
+<AbilityDefinitions>
+  <AbilityDef name="Heal" textureSheet="ItemSheet.png" textureTileCoords="0,9">
+    <AbilityProperty damageTarget="-10" isTargetSpell="false" radius="0.1" ignoreDifferentFaction="true" cd="5" energyCost="15"/>
+    <AbilityEffect textureSheet="particlefx_07.png" frameWidth="8" frameHeight="8" texWidth="1024" texHeight="1024" radius="3"/>
+    <SoundEffect name="Explosion86.wav" />
+  </AbilityDef>
+  <AbilityDef name="Confusion" textureSheet="ItemSheet.png" textureTileCoords="1,9">
+    <AbilityProperty damageTarget="-10" isTargetSpell="false" radius="2.0" addFlag="slow" duration="5" ignoreSameFaction="true" cd="10" energyCost="25"/>
+    <AbilityEffect textureSheet="particlefx_02.png" frameWidth="8" frameHeight="8" texWidth="1024" texHeight="1024" radius="3"/>
+    <SoundEffect name="Explosion86.wav" />
+  </AbilityDef>
+  <AbilityDef name="Nuclear Bomb" textureSheet="ItemSheet.png" textureTileCoords="1,9">
+    <AbilityProperty damageTarget="100" isTargetSpell="false" radius="3.0" addFlag="slow" duration="5" ignoreSameFaction="true" cd="10" energyCost="25"/>
+    <AbilityEffect textureSheet="particlefx_03.png" frameWidth="8" frameHeight="8" texWidth="1024" texHeight="1024" radius="6"/>
+    <SoundEffect name="Explosion86.wav" />
+  </AbilityDef>
+  <AbilityDef name="Taunt" textureSheet="ItemSheet.png" textureTileCoords="1,9">
+    <AbilityProperty radius="2.0" isTargetSpell="false" addFlag="slow" duration="5" ignoreSameFaction="true" cd="10" energyCost="25"/>
+    <AbilityEffect textureSheet="particlefx_02.png" frameWidth="8" frameHeight="8" texWidth="1024" texHeight="1024" radius="3"/>
+    <SoundEffect name="Explosion86.wav" />
+  </AbilityDef>
+  <AbilityDef name="Snipe" textureSheet="ItemSheet.png" textureTileCoords="1,9">
+    <AbilityProperty damageTarget="-10" isTargetSpell="false" radius="2.0" addFlag="slow" duration="5" ignoreSameFaction="true" cd="10" energyCost="25"/>
+    <AbilityEffect textureSheet="particlefx_02.png" frameWidth="8" frameHeight="8" texWidth="1024" texHeight="1024" radius="3"/>
+    <SoundEffect name="Explosion86.wav" />
+  </AbilityDef>
+  <AbilityDef name="Slow" textureSheet="ItemSheet.png" textureTileCoords="1,9">
+    <AbilityProperty radius="2.0" isTargetSpell="false" addFlag="slow" duration="5" ignoreSameFaction="true" cd="10" energyCost="25" />
+    <AbilityEffect textureSheet="particlefx_02.png" frameWidth="8" frameHeight="8" texWidth="1024" texHeight="1024" radius="3"/>
+    <SoundEffect name="Explosion86.wav" />
+  </AbilityDef>
+</AbilityDefinitions>
